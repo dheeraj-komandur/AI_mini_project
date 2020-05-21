@@ -80,20 +80,14 @@
 	<script>
 		function login() {
 			//alert("hello");
+			
 			var username = document.getElementById("username").value;
 			var password = document.getElementById("password").value;
 			console.log(username,password);
-			if(username=="admin@bda.com" && password=="password")
-			{
-				alert("Login Successful");
-				//put href
-			}
-			else
-			{
-				alert("Enter Correct Credentials");
-				document.getElementById("username").value = "";
-				document.getElementById("password").value = ""; 
-			}
+
+			location.href = "http://creationdevs.in/bda/dashboard.html";
+			
+
 		}
 		
 		</script>
